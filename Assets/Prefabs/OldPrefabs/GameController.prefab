@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1707380115586966}
+  m_IsPrefabParent: 1
+--- !u!1 &1707380115586966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4213690464515534}
+  - component: {fileID: 114340039021339412}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4213690464515534
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1707380115586966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.84535646, y: 3.104618, z: 4.873505}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114340039021339412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1707380115586966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9363dfc645d7de244af597b3a5fb6832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioController: {fileID: 0}
+  song:
+    songName: 
+    maxScore: 0
+    notes: []
+  P1_Score: 0
+  P2_Score: 0
+  tile_short: {fileID: 1370959181288934, guid: 500905c9807a8e2439bc1e5936b476d2, type: 2}
+  tile_long: {fileID: 1990311831920902, guid: 6c10f0185137a07458e5b7693f7ecf70, type: 2}
+  missTile_Short: {fileID: 1915831328065124, guid: 8d4cf0b5411753b46894f827451748b2,
+    type: 2}
+  missTile_Long: {fileID: 1241745858098004, guid: 8ae36021872de7846af83193f5e2b494,
+    type: 2}
+  spwanColums:
+  - 45.35
+  - 48.45
+  - 51.55
+  - 54.65
